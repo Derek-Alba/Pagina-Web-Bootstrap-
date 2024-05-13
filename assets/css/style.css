@@ -1,0 +1,67 @@
+
+.nav{
+    height: 80px;
+    width: 100%;
+}
+.background-nav{
+    background-color:#011638;
+   
+    
+}
+.fill-ksr10-green {
+    fill: #A4243B;
+}
+.menu-color a{
+    color: #A4243B;
+    font-size: 20px;
+}
+
+.menu-color a:hover{
+    color: wheat;
+}
+.active_link {
+    color: white;
+    
+}
+
+.bg-pink{
+    color: white;
+    background-color: #A4243B;
+}
+
+.animation{
+    display: inline-block;    
+    animation: 20s slide infinite linear;
+
+}
+.animation img{
+    margin: 0 15px;
+    border-radius: 25px;
+}
+.ofertas{
+    white-space: nowrap;
+    overflow-x: hidden;
+    
+    
+    
+}
+@keyframes slide{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.fondo-social{
+    background-color: #A4243B;
+}
+
+.section-final{
+    background-color: #011638;
+}
+.section-final__titulo{
+    background-color: #A4243B;
+    height: 60px;
+    font-size: 18px;
+}
